@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // We'll uncomment and use this later
-    // const button = document.createElement('button');
-    // button.textContent = 'Add Feature';
-    // button.addEventListener('click', addNewFeature);
-    // document.querySelector('.container').appendChild(button);
+     const button = document.createElement('button');
+     button.textContent = 'Add Feature';
+     button.addEventListener('click', addNewFeature);
+     document.querySelector('.container').appendChild(button);
 });
